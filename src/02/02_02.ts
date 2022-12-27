@@ -13,9 +13,15 @@ export type HousesType = {
     address: AddressType
 }
 
+export type BuildingType = {
+    build: string
+    budget: number
+    stuff: string
+}
+
 export type CityType = {
     title: string
     houses: Array<HousesType>
-    governmentBuilding: Array<string>
+    governmentBuilding: Array<BuildingType>
     cityzenNumber: number
 }
