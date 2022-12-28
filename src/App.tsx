@@ -1,13 +1,15 @@
 import React from 'react';
-// import Test from './02/02';
+import { getStudent } from './03/03';
 
 function App() {
+console.log(getStudent())
   return (
     <div className="container mt-3">
       <h1>Hello world</h1>
-      {/* <Test/> */}
+
     </div>
   );
+
 }
 
 export default App;
